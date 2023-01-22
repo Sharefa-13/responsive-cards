@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: nike;
+            src: url(Futura\ Condensed\ Extra\ Bold.otf);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navcontainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mainnav {
+            display: flex;
+            justify-content: space-between;
+            background-color: bisque;
+            margin: 0;
+            width: 100vw;
+            height: 45px;
+        }
+
+        .mainnav img {
+            widows: 30px;
+            height: 30px;
+            margin: 5px 12px;
+        }
+
+        #mainlogo {
+            font-size: 40px;
+            font-weight: 500;
+            font-style: italic;
+            position: relative;
+            bottom: 3px;
+            color: rgb(255, 69, 0);
+        }
+
+        .maincards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+
+
+        .firstcard {
+            border: 2px solid orangered;
+            border-radius: 15px;
+        }
+
+        .firstcard img {
+            width: 350px;
+            height: 400px;
+            border-radius: 15px;
+        }
+
+        @media screen and (min-width:650px) {
+            .firstcard {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 400px;
+                height: 250px;
+                margin: 20px;
+                min-width: 35vw;
+                max-width: 50vw;
+            }
+
+            .firstcard img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .inrorate {
+                margin: 0 10px 0 10px;
+            }
+        }
+
+        P {
+            text-align: center;
+            color: orangered;
+            margin: 0 0 5px 0;
+
+        }
+
+        .price {
+            font-size: 40px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .secondcard {
+            border: 2px solid orangered;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .secondcard img {
+            width: 350px;
+            height: 400px;
+            border-radius: 15px;
+        }
+
+        @media screen and (min-width:650px) {
+            .secondcard {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 400px;
+                height: 250px;
+                margin: 20px;
+                min-width: 35vw;
+                max-width: 50vw;
+            }
+
+            .secondcard img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .inrorate {
+                margin: 0 10px 0 10px;
+            }
+
+
+        }
+
+        .thirdcard {
+            border: 2px solid orangered;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .thirdcard img {
+            width: 350px;
+            height: 400px;
+            border-radius: 15px;
+        }
+
+        @media screen and (min-width:650px) {
+            .thirdcard {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 400px;
+                height: 250px;
+                margin: 20px;
+                min-width: 35vw;
+                max-width: 50vw;
+            }
+
+            .thirdcard img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .inrorate {
+                margin: 0 10px 0 10px;
+            }
+
+        }
+
+        .fourthcard {
+            border: 2px solid orangered;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .fourthcard img {
+            width: 350px;
+            height: 400px;
+            border-radius: 15px;
+        }
+
+        @media screen and (min-width:650px) {
+            .fourthcard {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 400px;
+                height: 250px;
+                margin: 20px;
+                min-width: 35vw;
+                max-width: 50vw;
+            }
+
+            .fourthcard img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .inrorate {
+                margin: 0 10px 0 10px;
+            }
+
+
+        }
+
+        @media screen and (min-width:650px) {
+            .maincards {
+                
+            }
+            .thefirstTwo {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                flex-direction: row;
+               
+            }
+            .thesecondTwo {
+                display: flex;
+                flex-direction: row;
+                padding: 50px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navcontainer">
+        <nav class="mainnav">
+            <img src="icons/icons8-nike-144.png" alt="nikeLogo">
+            <span id="mainlogo">NIKE</span>
+            <img src="icons/icons8-menu-500.png" alt="menu">
+        </nav>
+    </div>
+    </nav>
+    <div class="maincards">
+        <div class="thefirstTwo">
+            <div class="firstcard">
+                <img src="icons/air-jordan-1-mid-se-shoes-LpC4cS.jpg" alt="AirJordan">
+                <span class="inrorate">
+                    <p>NIKE AirJordan Limited Edition</p>
+                    <p class="price">350 $</p>
+                </span>
+            </div>
+            <div class="secondcard">
+                <img src="icons/128849f7-18ce-4cd5-9fc3-29b303d354ef.jpg" alt="AirJordan">
+                <span class="inrorate">
+                    <p>NIKE AirJordan Limited Edition</p>
+                    <p class="price">450 $</p>
+                </span>
+            </div>
+        </div>
+        <div class="thesecondTwo">
+            <div class="thirdcard">
+                <img src="icons/8e01e221-8c4e-4964-97aa-828474f5fe3f.jpg" alt="AirJordan">
+                <span class="inrorate">
+                    <p>NIKE AirJordan Limited Edition</p>
+                    <p class="price">550 $</p>
+                </span>
+            </div>
+            <div class="fourthcard">
+                <img src="icons/dfe54c4c-1c62-4f11-b9b9-c22125d3fc6e.jpg" alt="">
+                <span class="inrorate">
+                    <p>NIKE AirJorda Limited Edition</p>
+                    <p class="price">220 $</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
